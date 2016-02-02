@@ -18,9 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-Rails default:
-```validates :name, uniqueness: true``` validate scope one column
-```validates :name, uniqueness: {scope: [:phone, :address]}``` validate check multiple column arcoss records
+**Rails default**
+validate scope one column
+```ruby
+validates :name, uniqueness: true
+``` 
+validate check multiple column arcoss records
+```
+validates :name, uniqueness: {scope: [:phone, :address]}
+``` 
 
 In gem **validator_multiple_uniqueness**:
 ```ruby

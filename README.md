@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Usage
 
 **Rails default**
+
 validate scope one column
 ```ruby
 validates :name, uniqueness: true
